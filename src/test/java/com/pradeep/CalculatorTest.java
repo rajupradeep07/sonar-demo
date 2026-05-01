@@ -16,4 +16,17 @@ class CalculatorTest {
         Calculator calculator = new Calculator();
         assertEquals(2, calculator.subtract(5, 3));
     }
+    
+    @Test
+    void testDivide() {
+        Calculator calculator = new Calculator();
+        assertEquals(2, calculator.divide(6, 3));
+    }
+
+    @Test
+    void testDivideByZero() {
+        Calculator calculator = new Calculator();
+        assertEquals(0, calculator.divide(6, 0));
+    }
+    
 }
