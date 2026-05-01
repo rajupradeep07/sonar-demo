@@ -12,6 +12,9 @@ public class Calculator {
     }
 
     public int divide(int a, int b) {
-        return a / b; // no zero check, useful for discussion
+        if (b == 0) {
+            return 0;  // basic fix
+        }
+    return a / b;
     }
 }
