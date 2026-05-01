@@ -7,6 +7,18 @@ public class Calculator {
         return a + b;
     }
 
+    public int multiply(int a, int b) {
+        return a * b;
+    }
+
+    public int mod(int a, int b) {
+        return a % b;
+    }
+
+    public int square(int a) {
+        return a * a;
+    }
+
     public int subtract(int a, int b) {
         return a - b;
     }
